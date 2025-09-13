@@ -1,0 +1,21 @@
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
+import CodeEditor from "@/components/CodeEditor";
+import Dashboard from "@/components/Dashboard";
+
+const Index = () => {
+  return (
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main>
+        <Hero />
+        <Features />
+        <CodeEditor />
+        <Dashboard />
+      </main>
+    </div>
+  );
+};
+
+export default Index;
